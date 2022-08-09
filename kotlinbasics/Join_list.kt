@@ -37,7 +37,6 @@ package com.example.kotlinbasics
 //    val joined = Listutils.union(list1,list2);
 //}
 
-import java.util.ArrayList
 //fun main(){
 ////    arraylist of vowels
 //    val vowels_list : List<String> = listOf("a","e","i","o","u");
@@ -57,14 +56,14 @@ import java.util.ArrayList
 //}
 
 //Map to list
-import java.util.HashMap
-fun main(){
-    val map = HashMap<Int,String>();
-    map.put(1,"a");
-    map.put(2,"b");
-    map.put(3,"c");
-    map.put(4,"d");
-    map.put(5,"e");
+
+fun main() {
+    val map = HashMap<Int, String>();
+    map.put(1, "a");
+    map.put(2, "b");
+    map.put(3, "c");
+    map.put(4, "d");
+    map.put(5, "e");
 
     val keyList = ArrayList(map.keys);
     val valueList = ArrayList(map.values);

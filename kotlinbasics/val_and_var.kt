@@ -1,6 +1,6 @@
 package com.example.kotlinbasics
 
-fun main(){
+fun main() {
 
 //    val once assigned can't be changed
 //    immutable
@@ -14,5 +14,5 @@ fun main(){
     var Name = "Lovi";
     Name = "Bhatia";
 
-    print("val: $myName , var: $Name");
+    print("val: {$myName} , var: {$Name}");
 }
